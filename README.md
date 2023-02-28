@@ -108,7 +108,7 @@ The below instructions are preliminary and for the project contributors
 
 ```bash
 panel convert src/hello-world/app.py --to pyodide-worker --out docs/hello-world
-panel convert src/test_panel_speed/app.py --to pyodide-worker --out docs/stumpy-dashboard
+panel convert src/test_panel_speed/app.py --to pyodide-worker --out docs/test_panel_speed
 python src/index/index.py
 ```
 
