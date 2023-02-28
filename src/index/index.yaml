@@ -134,3 +134,19 @@ applications:
       - Dashboard
       - WASM 
     thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/test_panel_speed/thumbnail.png?raw=true"
+    - url: interactive_dashboard/app.html
+    name: Tesing panel and pyodide speed
+    author: taghillbilly
+    owner: 
+    category: Dashboards
+    description: A penel to test panel with WASM
+    description_long: |-
+      ## A penel of interactive dashboard
+    project: 
+    resources:       
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/interactive_dashboard/app.ipynb
+    servable: 
+    tags:       
+      - Dashboard
+      - WASM 
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/interactive_dashboard/thumbnail.png?raw=true"
