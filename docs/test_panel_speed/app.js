@@ -86,7 +86,7 @@ from bokeh.models import HoverTool, Legend
 
 # In[5]:
 
-
+script_start_time = time.time()
 # cache data to improve dashboard performance
 if 'data_test_panel_speed' not in pn.state.cache.keys():
 
@@ -268,6 +268,7 @@ template = pn.template.FastListTemplate(
 template.servable()
 end_time = time.time()
 print("server setup time: %2.1f seconds."%(end_time - time_debugging_point_1))
+print("code exec. time: %2.1f seconds."%(end_time - script_start_time))
 #pn.Column(plot).servable()
 
 
