@@ -51,11 +51,11 @@ applications:
       ## A Panel hello world application
     project: 
     resources:       
-      code: https://github.com/awesome-panel/examples/tree/master/src/hello-world/app.py
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/hello-world/app.py
     servable: 
     tags:       
       - Basic
-    thumbnail: "https://github.com/awesome-panel/examples/blob/main/src/hello-world/thumbnail.png?raw=true"
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/hello-world/thumbnail.png?raw=true"
   - url: stumpy-dashboard/app.html
     name: Stumpy Dashboard
     author: sean_law
@@ -67,13 +67,13 @@ applications:
       convert it to webassembly.
     project: 
     resources:       
-      code: https://github.com/awesome-panel/examples/tree/master/src/stumpy-dashboard/app.py
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/stumpy-dashboard/app.py
       docs: 
     servable: 
     tags:       
       - Timeseries
       - Dashboard
-    thumbnail: "https://github.com/awesome-panel/examples/blob/main/src/stumpy-dashboard/thumbnail.png?raw=true"
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/stumpy-dashboard/thumbnail.png?raw=true"
   - url: streaming-indicators/app.html
     name: Streaming Indicators
     author: marc_skov_madsen
@@ -90,14 +90,14 @@ applications:
       `pn.state.add_periodic_callback`.
     project: 
     resources:       
-      code: https://github.com/awesome-panel/examples/tree/master/src/streaming-indicators/app.py
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/streaming-indicators/app.py
       mp4: https://github.com/MarcSkovMadsen/awesome-panel-assets/blob/master/awesome-panel/applications/streaming-dashboard.mp4
     servable: 
     tags:       
       - Streaming
       - Dashboard
       - StatsCard
-    thumbnail: "https://github.com/awesome-panel/examples/blob/main/src/streaming-indicators/thumbnail.png?raw=true"
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/streaming-indicators/thumbnail.png?raw=true"
   - url: videostream-interface/app.html
     name: VideoStream Interface
     author: marc_skov_madsen
@@ -111,10 +111,26 @@ applications:
       support streaming use cases.
     project: 
     resources:       
-      code: https://github.com/awesome-panel/examples/tree/master/src/videostream-interface/app.py
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/videostream-interface/app.py
     servable: 
     tags:       
       - Streaming
       - Dashboard
       - Video
-    thumbnail: "https://github.com/awesome-panel/examples/blob/main/src/videostream-interface/thumbnail.png?raw=true"
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/videostream-interface/thumbnail.png?raw=true"
+    - url: test_panel_speed/app.html
+    name: Tesing panel and pyodide speed
+    author: taghillbilly
+    owner: 
+    category: Dashboards
+    description: A penel to test panel with WASM
+    description_long: |-
+      ## A penel to test panel with WASM
+    project: 
+    resources:       
+      code: https://github.com/taghillbilly/panel_examples/tree/master/src/test_panel_speed/app.py
+    servable: 
+    tags:       
+      - Dashboard
+      - WASM 
+    thumbnail: "https://github.com/taghillbilly/panel_examples/blob/main/src/test_panel_speed/thumbnail.png?raw=true"
