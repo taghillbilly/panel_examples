@@ -62,6 +62,12 @@ import holoviews as hv
 import time
 
 
+# In[ ]:
+
+
+script_start_time = time.time()
+
+
 # In[3]:
 
 
@@ -356,6 +362,7 @@ template = pn.template.FastListTemplate(
 template.servable()
 end_time = time.time()
 print("server setup time: %2.1f seconds."%(end_time - timestamp_before_server))
+print("code exec. time: %2.1f seconds."%(time.time() - script_start_time))
 
 
 
